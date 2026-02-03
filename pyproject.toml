@@ -13,3 +13,12 @@ line-ending = "auto"
 [tool.ruff.lint]
 select = ["ALL"]
 ignore = ["ANN001", "ANN201", "ANN202", "B006", "BLE001", "E402", "PD901", "PLR0913", "S311", "T201"]
+
+[tool.nbdev]
+nbs_path = "program"
+doc_path = "_docs"
+recursive = true
+tst_flags = "notest"
+put_version_in_init = true
+custom_sidebar = true
+title = "ml.school"

@@ -1,4 +1,4 @@
-numpy
+numpy<2
 pandas
 matplotlib
 comet-ml
@@ -6,8 +6,8 @@ scikit-learn
 python-dotenv
 ipytest
 tensorflow==2.14
-sagemaker
-sagemaker[local]
+sagemaker<3
+sagemaker[local]<3
 ruff
 nbformat
 nbdev

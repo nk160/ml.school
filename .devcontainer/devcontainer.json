@@ -1,0 +1,12 @@
+{
+  "name": "ml.school",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspaces/ml.school",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteEnv": {
+    "PATH": "/opt/conda/envs/ml-dependencies/bin:${PATH}"
+  }
+}
